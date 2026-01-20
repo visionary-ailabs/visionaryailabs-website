@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="circle-clip">
+      <circle cx="100" cy="100" r="100"/>
+    </clipPath>
+  </defs>
+  <!-- Circular background -->
+  <circle cx="100" cy="100" r="100" fill="#050505"/>
+  <!-- Logo image clipped to circle -->
+  <image href="gold_logo.png" x="0" y="0" width="200" height="200" clip-path="url(#circle-clip)"/>
+</svg>
